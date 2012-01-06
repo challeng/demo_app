@@ -7,12 +7,15 @@ gem 'rails', '3.1.3'
 
 #gem 'sqlite3'
 #gem 'sqlite3', '1.3.4' , :group => :development
-group :development, :test do
-  gem 'sqlite3', '1.3.4'
-end
-group :production do
-  gem 'pg'
-end
+
+gem 'pg'
+
+#group :development, :test do
+#  gem 'sqlite3', '1.3.4'
+#end
+#group :production do
+#  gem 'pg'
+#end
 
 
 gem 'json'
