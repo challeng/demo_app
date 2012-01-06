@@ -5,3 +5,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 DemoApp::Application.load_tasks
+
+require 'rake/dsl_definition'
+require 'rake'
